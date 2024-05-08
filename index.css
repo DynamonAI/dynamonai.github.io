@@ -2,6 +2,7 @@
 
 :root {
     --hover-color: rgba(245, 129, 34, 0.9);
+    --hover-color-rgb: rgb(245, 129, 34);
 }
 
 body {
@@ -191,7 +192,7 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(255, 50, 50);
+    color:var(--hover-color-rgb);
 }
 .container {
     width:90vw;
