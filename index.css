@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 :root {
-    --hover-color: rgba(245, 129, 34, 0.9);
-    --main-color: rgb(245, 129, 34);
+    --hover-color: rgba(255, 50, 50, 0.9);
+    --main-color: rgb(255, 50, 50);
 }
 
 body {
