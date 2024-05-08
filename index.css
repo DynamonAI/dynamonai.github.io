@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+:root {
+    --hover-color: rgba(245, 129, 34, 0.9);
+}
+
 body {
     padding:0px;
     margin:0px;
@@ -155,19 +159,19 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #projects:hover {
-    background:rgba(255,50,50,0.9);
+    background:var(--hover-color);
     cursor:pointer;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:var(--hover-color);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:var(--hover-color);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:var(--hover-color);
     cursor:pointer;
 }
 #middle table {
