@@ -2,7 +2,7 @@
 
 :root {
     --hover-color: rgba(245, 129, 34, 0.9);
-    --hover-color-rgb: rgb(245, 129, 34);
+    --main-color: rgb(245, 129, 34);
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    background:var(--main-color);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid var(--main-color);
     border-radius:50%;
     margin:0;
 }
@@ -52,10 +52,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:var(--main-color);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:var(--main-color);
     margin-left:-5px;
 }
 #menu {
@@ -84,7 +84,7 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+    color:var(--main-color);
     font-size:56px;
     text-decoration:underline;
 }
@@ -192,13 +192,13 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:var(--hover-color-rgb);
+    color:var(--main-color);
 }
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:var(--main-color);
     color:#fff;
     z-index:9;
     position:fixed;
@@ -252,13 +252,13 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(255, 50, 50);
+    color:var(--main-color);
     background:#fff;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(255, 50, 50);
+    color:var(--main-color);
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -322,7 +322,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:var(--main-color);
 }
 #particles-js {
     position:fixed;
@@ -337,14 +337,14 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: var(--main-color); 
 }
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 50, 50,0.8); 
 }
 ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
+	background: var(--main-color);
 }
 
 @media (max-width: 800px){ 
