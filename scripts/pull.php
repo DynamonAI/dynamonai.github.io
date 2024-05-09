@@ -1,1 +1,1 @@
-<?php `git pull`;
+<?php `cd .. & git pull`;
