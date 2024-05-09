@@ -3,7 +3,7 @@
 :root {
     --hover-color: rgba(255, 50, 50, 0.9);
     --main-color: rgb(255, 50, 50);
-    --container-color: rgba(255, 255, 255, 0.9);
+    --container-color: rgba(0, 0, 0, 0.9);
 }
 
 body {
