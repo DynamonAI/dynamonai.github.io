@@ -3,6 +3,7 @@
 :root {
     --hover-color: rgba(255, 50, 50, 0.9);
     --main-color: rgb(255, 50, 50);
+    --container-color: rgba(255, 255, 255, 0.9);
 }
 
 body {
@@ -198,7 +199,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:var(--hover-color);
+    background:var(--container-color);
     color:#fff;
     z-index:9;
     position:fixed;
